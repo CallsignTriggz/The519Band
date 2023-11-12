@@ -32,13 +32,65 @@
         </ul>
       </nav>
       <section id="home">
-        <div id="calendar"></div>
-        <img src="./public/assets/images/519BandGroup.jpg" alt="">
-        <p>
-          This section will show a calander of upcoming events allowing the
-          ability to adjust the calander for future events. as well as show a
-          feed of reviews from fans
-        </p>
+        <h1>The 519 Band</h1>
+          <img class="theband" src="./public/assets/images/519BandGroup.jpg" alt="">
+            <p>
+              This section will show a calander of upcoming events allowing the
+              ability to adjust the calander for future events. as well as show a
+              feed of reviews from fans
+            </p>
+            <h1>Upcoming Events!</h1>
+          <iframe class="calendar" src="https://calendar.google.com/calendar/embed?height=500&wkst=1&bgcolor=%23ffffff&ctz=America%2FToronto&showTitle=1&showNav=1&showPrint=1&showTabs=1&src=d2luZHNvcjUxOWJhbmRAZ21haWwuY29t&color=%23039BE5" style="border:solid 1px #777" width="750" height="500" frameborder="0" scrolling="no"></iframe>
+        
+          <section class="reviews">
+            <h1>Fans Thoughts!</h1>
+          <div class="slideshow-container">
+
+            <div class="mySlides fade">
+              <div class="numbertext">1 / 5</div>
+              <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fjeanette.pillon.5%2Fposts%2F2145023892341476&show_text=true&width=500" width="500" height="189" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+              
+            </div>
+            
+            <div class="mySlides fade">
+              <div class="numbertext">2 / 5</div>
+              <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fsharonsorrell%2Fposts%2F10159410915007496&show_text=true&width=500" width="500" height="170" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+              
+            </div>
+            
+            <div class="mySlides fade">
+              <div class="numbertext">3 / 5</div>
+              <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FFoxxeChristinaWilder%2Fposts%2F827000661071311&show_text=true&width=500" width="500" height="194" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+              
+            </div>
+
+            <div class="mySlides fade">
+              <div class="numbertext">4 / 5</div>
+              <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Falex.farkas.9%2Fposts%2F2348439941841541&show_text=true&width=500" width="500" height="170" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+            
+            </div>
+
+            <div class="mySlides fade">
+              <div class="numbertext">5 / 5</div>
+              <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FBob.cageon%2Fposts%2F10155309720905793&show_text=true&width=500" width="500" height="223" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+              
+            </div>
+            
+            <a class="prev" onclick="plusSlides(-1)">❮</a>
+            <a class="next" onclick="plusSlides(1)">❯</a>
+            
+            </div>
+            <br>
+            
+            <div style="text-align:center">
+              <span class="dot" onclick="currentSlide(1)"></span> 
+              <span class="dot" onclick="currentSlide(2)"></span> 
+              <span class="dot" onclick="currentSlide(3)"></span>
+              <span class="dot" onclick="currentSlide(4)"></span>
+              <span class="dot" onclick="currentSlide(5)"></span> 
+            </div>
+            
+        </section>
       </section>
       <section id="about">
         <p>
@@ -66,4 +118,5 @@
     </footer>
   </body>
   <script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.5.1/moment.min.js"></script>
+  <script src="./public/assets/js/carousel.js"></script>
 </html>
