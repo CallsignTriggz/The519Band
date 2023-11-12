@@ -13,6 +13,7 @@ body {
 header {
   background-image: url("../images/the519banner.jpg");
   background-size: contain;
+  background-repeat: repeat;
   height: 200px;
   color: #fff;
   text-align: center;
@@ -41,6 +42,7 @@ nav ul li {
   margin-right: 1rem;
   text-align: justify;
   padding-left: 40px;
+  font-size: 20px;
 }
 
 nav ul li a {
