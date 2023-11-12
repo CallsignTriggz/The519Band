@@ -105,3 +105,37 @@ iframe {
   margin: 20px;
   width: 300px;
 }
+
+@media only screen and (max-width: 768px) {
+  nav ul {
+    display: none;
+    flex-direction: column;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    background-color: black;
+  }
+
+  nav ul.show {
+    display: flex;
+  }
+
+  nav ul li {
+    margin: 0;
+    padding: 1rem;
+  }
+
+  .menu-icon {
+    display: block;
+    cursor: pointer;
+    font-size: 24px;
+    color: rgb(0, 0, 0);
+  }
+}
+
+/* Rest of your existing CSS */
+
+/* Example for the menu icon (you can customize this) */
+.menu-icon:before {
+  content: "\2630"; /* Unicode character for hamburger menu */
+}

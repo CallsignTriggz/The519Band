@@ -28,3 +28,8 @@ function showSlides(n) {
   slides[slideIndex - 1].style.display = "block";
   dots[slideIndex - 1].className += " active";
 }
+
+function toggleMenu() {
+  var navList = document.querySelector("nav ul");
+  navList.classList.toggle("show");
+}
