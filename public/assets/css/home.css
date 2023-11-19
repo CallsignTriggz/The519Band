@@ -171,3 +171,12 @@
 .menu-icon:before {
   content: "\2630"; /* Unicode character for hamburger menu */
 }
+
+@media only screen and (max-width: 1200px) and (min-width: 1025px) {
+}
+@media only screen and (max-width: 1024px) and (min-width: 769px) {
+}
+@media only screen and (max-width: 768px) and (min-width: 481px) {
+}
+@media only screen and (max-width: 480px) and (min-width: 320px) {
+}
