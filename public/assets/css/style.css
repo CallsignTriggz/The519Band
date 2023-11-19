@@ -91,13 +91,13 @@ nav ul li a {
 .bandmembers img {
   width: 250px;
   border-radius: 40%;
-  margin-left: 10px;
+  margin-left: 20px;
   margin-top: 25px;
   border: 2px solid white;
 }
 
 img.members {
-  width: 11.5rem;
+  width: 10rem;
 }
 
 section {
