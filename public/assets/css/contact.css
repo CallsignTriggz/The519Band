@@ -17,13 +17,16 @@
   width: 1100px;
 }
 
+iframe {
+  border-radius: 30%;
+}
+
+/* hamburger menu */
+
 .menu-icon {
   display: none;
 }
 
-iframe {
-  border-radius: 30%;
-}
 @media only screen and (max-width: 768px) {
   nav ul {
     display: none;
