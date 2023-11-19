@@ -74,6 +74,19 @@
 @media only screen and (max-width: 768px) and (min-width: 481px) {
 }
 @media only screen and (max-width: 480px) and (min-width: 320px) {
+  #about {
+    width: 380px;
+  }
+
+  h1 {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 35px;
+    width: 300px;
+  }
+  p {
+    text-align: justify;
+  }
 }
 @media only screen and (max-width: 319px) and (min-width: 100px) {
 }

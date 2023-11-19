@@ -68,6 +68,12 @@ iframe {
 @media only screen and (max-width: 768px) and (min-width: 481px) {
 }
 @media only screen and (max-width: 480px) and (min-width: 320px) {
+  #music {
+    width: 380px;
+  }
+  iframe {
+    height: 200px;
+  }
 }
 @media only screen and (max-width: 319px) and (min-width: 100px) {
 }
