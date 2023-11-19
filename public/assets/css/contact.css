@@ -17,6 +17,11 @@
   width: 1100px;
 }
 
+.email {
+  color: #fff;
+  text-underline-offset: 4px;
+}
+
 iframe {
   border-radius: 30%;
 }
